@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>HeboTech.Quartz</PackageId>
+    <Title>HeboTech.Quartz</Title>
+    <Version>0.1.0</Version>
+    <Authors>HeboTech</Authors>
+    <Product>HeboTech.Quartz</Product>
+    <Company>HeboTech</Company>
+    <PackageProjectUrl>https://github.com/hbjorgo/Quartz</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/hbjorgo/Quartz</RepositoryUrl>
+    <Description>Abstracts the system clock to facilitate testing</Description>
+    <PackageTags>quartz time datetime clock systemclock</PackageTags>
+    <PackageReleaseNotes>https://github.com/hbjorgo/Quartz/releases</PackageReleaseNotes>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+</Project>
