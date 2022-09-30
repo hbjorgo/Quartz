@@ -42,7 +42,7 @@ Example usage when running unit tests
 ```csharp
 //Arrange
 DateTime startTime = new DateTime(1970, 1, 1);
-ISystemClock systemClock = new ConstantClock(startTime);
+CustomClock systemClock = new CustomClock(startTime);
 MyService myService = new MyService(systemClock);
 
 // Act
