@@ -7,8 +7,6 @@ namespace HeboTech.Quartz.Tests
         {
             // Arrange
             ISystemClock systemClock = new SystemClock();
-
-            // Act
             DateTimeOffset utcNow = DateTimeOffset.UtcNow;
 
             // Assert
@@ -21,11 +19,8 @@ namespace HeboTech.Quartz.Tests
             // Arrange
             ISystemClock systemClock = new SystemClock();
 
-            // Act
-            DateTimeOffset utcNow = DateTimeOffset.UtcNow;
-
             // Assert
-            Assert.Equal(TimeSpan.Zero, utcNow.Offset);
+            Assert.Equal(TimeSpan.Zero, systemClock.UtcNow.Offset);
         }
     }
 }
